@@ -12,4 +12,4 @@
 
 Allows a GM to maintain different lists of Active Modules depending on if they are Setting Up or in Live Game
 
-!["./module_sets.gif]
+![](./module_sets.gif)
