@@ -1,3 +1,4 @@
 {
-    "MODULE.hello": "hello"
+    "MS.Setup": "Setup",
+    "MS.Livegame": "Live Game"
 }

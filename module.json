@@ -1,17 +1,19 @@
 {
-  "name": "module",
-  "title": "New Module",
-  "description": "",
+  "name": "module-sets",
+  "title": "Module Sets - Dual Track GMing, baby",
+  "description": "Allows a GM to maintain different lists of Active Modules depending on if they are Setting Up or in Live Game",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
-  "minimumCoreVersion": "0.7.9",
-  "compatibleCoreVersion": "0.7.9",
+  "minimumCoreVersion": "0.8.8",
+  "compatibleCoreVersion": "0.8.8",
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Cody Swendrowski",
+      "url": "https://swendrowski.us",
+      "email": "cody@swendrowski.us",
+      "discord": "cswendrowski#9701",
+      "patreon": "ironmoose"
     }
   ],
   "dependencies": [
@@ -21,13 +23,12 @@
     
   ],
   "esmodules": [
-    "/scripts/module.js"
+    "/scripts/modulesets.js"
   ],
   "scripts": [
-    "/scripts/lib/lib.js"
   ],
   "styles": [
-    "/styles/module.css"
+    "/styles/modulesets.css"
   ],
   "languages": [
     {
@@ -40,9 +41,5 @@
   "manifest": "This is auto replaced",
   "download": "This is auto replaced",
   "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
-    }
   ]
 }
