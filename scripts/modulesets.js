@@ -45,17 +45,17 @@ function _registerSettings() {
 function _insertSwitchToggle(mode) {
     let floppedMode = mode === MODES.Setup ? MODES.LiveGame : MODES.Setup;
     let switchHtml =
-        '<div class="switch-container">\n' +
+        '<div class="ms2t-switch-container">\n' +
         '    <h2>' + game.i18n.localize("MS.Setup") + '</h2>    \n' +
-        '<label class="switch"><input type="checkbox" ' + (mode === MODES.LiveGame ? 'checked' : '') + '>\n' +
-        '  <span class="slider"></span>\n' +
+        '<label class="ms2t-switch"><input type="checkbox" ' + (mode === MODES.LiveGame ? 'checked' : '') + '>\n' +
+        '  <span class="ms2t-slider"></span>\n' +
         '</label>\n' +
         '    <h2>' + game.i18n.localize("MS.Livegame") + '</h2>\n' +
         '</div>'
 
     $("#game-details").append(switchHtml);
     let executing = false;
-    $(".switch").click(async () => {
+    $(".ms2t-switch").click(async () => {
         if (!executing) {
             executing = true;
             await swapMode(floppedMode);
